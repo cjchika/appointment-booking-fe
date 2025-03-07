@@ -1,0 +1,172 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 240 10% 3.9%;
+    --card: 0 0% 100%;
+    --card-foreground: 240 10% 3.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 240 10% 3.9%;
+    --primary: 346.8 77.2% 49.8%;
+    --primary-foreground: 355.7 100% 97.3%;
+    --secondary: 240 4.8% 95.9%;
+    --secondary-foreground: 240 5.9% 10%;
+    --muted: 240 4.8% 95.9%;
+    --muted-foreground: 240 3.8% 46.1%;
+    --accent: 240 4.8% 95.9%;
+    --accent-foreground: 240 5.9% 10%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 240 5.9% 90%;
+    --input: 240 5.9% 90%;
+    --ring: 346.8 77.2% 49.8%;
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 20 14.3% 4.1%;
+    --foreground: 0 0% 95%;
+    --card: 24 9.8% 10%;
+    --card-foreground: 0 0% 95%;
+    --popover: 0 0% 9%;
+    --popover-foreground: 0 0% 95%;
+    --primary: 346.8 77.2% 49.8%;
+    --primary-foreground: 355.7 100% 97.3%;
+    --secondary: 240 3.7% 15.9%;
+    --secondary-foreground: 0 0% 98%;
+    --muted: 0 0% 15%;
+    --muted-foreground: 240 5% 64.9%;
+    --accent: 12 6.5% 15.1%;
+    --accent-foreground: 0 0% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 85.7% 97.3%;
+    --border: 240 3.7% 15.9%;
+    --input: 240 3.7% 15.9%;
+    --ring: 346.8 77.2% 49.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+
+
+.react-datepicker {
+  font-family: "Helvetica Neue", helvetica, arial, sans-serif;
+  font-size: 0.8rem;
+  background-color: #fff;
+  color: #000;
+  border: none !important;
+  border-radius: 0.8rem !important;
+
+  display: inline-block;
+  position: relative;
+  line-height: initial;
+}
+
+.react-datepicker__month-container {
+  width: 100% !important;
+}
+
+.react-datepicker__day--selected, .react-datepicker__day--in-selecting-range, .react-datepicker__day--in-range, .react-datepicker__month-text--selected, .react-datepicker__month-text--in-selecting-range, .react-datepicker__month-text--in-range, .react-datepicker__quarter-text--selected, .react-datepicker__quarter-text--in-selecting-range, .react-datepicker__quarter-text--in-range, .react-datepicker__year-text--selected, .react-datepicker__year-text--in-selecting-range, .react-datepicker__year-text--in-range {
+  border-radius: 0.3rem;
+  background-color: #6c63ff !important;
+  color: #fff !important;
+}
+
+.react-datepicker__day-name, .react-datepicker__day, .react-datepicker__time-name {
+  /* color: #525866; */
+  display: inline-block;
+  width: 1.7rem;
+  line-height: 1.7rem;
+  text-align: center;
+  margin: 0.166rem;
+}
+
+.react-datepicker__day-names {
+  background-color: white !important;
+  white-space: nowrap;
+  margin-bottom: -8px;
+  color: #99A0AE !important;
+}
+
+.react-datepicker__header {
+  text-align: center;
+  border-bottom: none !important;
+  border-color: white !important;
+  border-top-left-radius: 0.3rem;
+  padding: 8px 0;
+  position: relative;
+  padding-bottom: 0px !important;
+}
+
+h2.react-datepicker__current-month {
+  padding: 0;
+  padding-bottom: 8px !important;
+  margin: 0;
+  border-color: #F5F7FA !important;
+  color: #525866 !important;
+  font-size: 11px !important;
+}
+
+.react-datepicker__navigation {
+  align-items: center;
+  background: none;
+  background-color: white !important;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  cursor: pointer;
+  position: absolute;
+  top: 2px;
+  padding: 0;
+  border: none;
+  z-index: 1;
+  height: 22px;
+  width: 22px;
+  text-indent: -999em;
+  overflow: hidden;
+  margin-top: 12px;
+}
+
+.react-datepicker__navigation-icon {
+  position: relative;
+  top: -1px;
+  font-size: 20px;
+  width: 0;
+  margin-top: 5px;
+}
+
+.react-datepicker__navigation-icon--previous {
+  right: -0px;
+
+}
+
+.react-datepicker__navigation-icon--next {
+  left: -0px;
+}
+
+.react-datepicker__day-name, .react-datepicker__day{
+  padding-left: 28px !important;
+  padding-right: 35px !important;
+  padding-top: 8px !important;
+  padding-bottom: 8px !important;
+}
+
+h2.react-datepicker__current-month{
+  font-size: 22px !important;
+  padding: 5px;
+}
+
+.react-datepicker__day, .react-datepicker__day-name{
+  font-size: 20px !important;
+}
