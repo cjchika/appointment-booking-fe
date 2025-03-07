@@ -18,7 +18,6 @@ An Appointment Booking System (Frontend) -A  Case Study for Alpha Global
 - Database: AWS RDS
 
 ### Requirements
-
 - Node.js 16+ and pnpm
 
 Clone the repo:
@@ -96,11 +95,11 @@ The appointment booking doesn't allow multiple booking for a particular time-fra
 ```
 
 ### Some Screenshots
-[Screenhot 1](https://github.com/cjchika/appointment-booking-be/blob/main/src/screenshots/SC1.png)
+[Screenhot 1](https://github.com/cjchika/appointment-booking-fe/blob/main/src/assets/screenshots/SC1.png)
 
-[Screenhot 2](https://github.com/cjchika/appointment-booking-be/blob/main/src/screenshots/SC2.png)
+[Screenhot 2](https://github.com/cjchika/appointment-booking-fe/blob/main/src/assets/screenshots/SC2.png)
 
-[Screenhot 3](https://github.com/cjchika/appointment-booking-be/blob/main/src/screenshots/SC3.png)
+[Screenhot 3](https://github.com/cjchika/appointment-booking-fe/blob/main/src/assets/screenshots/SC3.png)
 
 
 
