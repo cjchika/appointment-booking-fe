@@ -53,7 +53,7 @@ Open http://localhost:5173 with your favorite browser to see your project.
 - Deployment - None of the suggested platforms worked for me, I used what I'm familiar with - AWS Cloud.
 
 ## How the conflict-handling logic works
-The appointment booking doesn't allow multiple booking for a particular time-frame in a given date, only a user with the role of an admin can access/manage appointment bookings, proper UI feedback is displayed to respective users to allow for a better UX experience. This logic was implemented with the help of the Sequelize ORM.
+The appointment booking doesn't allow multiple booking for a particular time-frame in a given date, only a user with the role of an admin can access/manage appointment bookings, proper UI feedback is displayed to respective users to allow for a better UX experience. This logic was implemented with the help of the Sequelize ORM!
 
 
 ## Features
